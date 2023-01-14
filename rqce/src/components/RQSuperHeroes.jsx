@@ -8,8 +8,7 @@ const RQSuperHeroes = () => {
       
     
   },{
-    refetchOnMount:false,
-    refetchOnWindowFocus:true
+    // refetchInterval:2000
   });
   if (isError) {
     return <h2>{error.message}</h2>;

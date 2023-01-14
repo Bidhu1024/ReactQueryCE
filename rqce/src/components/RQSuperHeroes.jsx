@@ -14,7 +14,7 @@ const RQSuperHeroes = () => {
     return axios.get("http://localhost:4000/superheroes")
       
     
-  },{
+  },{  
     onSuccess,
     onError
   });

@@ -22,7 +22,7 @@ if(isLoading){
     <h2> SuperHeroes</h2>
     {data.map((hero)=>{
         return <div key={hero.name}>{hero.name}</div>
-    })}
+    })} 
     
     </div>
 

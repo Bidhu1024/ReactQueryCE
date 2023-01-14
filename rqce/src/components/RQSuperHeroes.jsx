@@ -8,7 +8,8 @@ const RQSuperHeroes = () => {
       
     
   },{
-    cacheTime:10000
+    refetchOnMount:false,
+    refetchOnWindowFocus:true
   });
   if (isError) {
     return <h2>{error.message}</h2>;

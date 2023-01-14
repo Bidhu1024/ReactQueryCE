@@ -12,7 +12,7 @@ const RQSuperHeroes = () => {
     return <h2>Loading....</h2>
   }
   return (
-    <div><h1> RQSuperHeroes </h1>
+    <div><h1> RQSuperHeroes </h1>  
     {data?.data.map(hero =>{
       return <div key={hero.name}>{hero.name}</div>
     })}
